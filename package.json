@@ -1,0 +1,17 @@
+{
+  "name": "api-docs-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server with API docs for 205 services",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
